@@ -62,7 +62,7 @@ return array(
         ),
     ),
     'translator' => array(
-        'locale' => 'pt_BR',
+        'locale' => 'pt_BR.po',
         'translation_file_patterns' => array(
             array(
                 'type'     => 'gettext',
