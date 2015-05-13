@@ -160,6 +160,8 @@ msgstr "Editar"
 msgid "Delete"
 msgstr "Deletar"
 
+#: ../view/error/404.phtml:41
+#, php-format
 msgid "Title"
 msgstr "Titulo"
 
