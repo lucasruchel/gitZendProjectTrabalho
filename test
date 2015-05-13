@@ -39,7 +39,7 @@ CREATE TABLE album (
 );
 
 
-ALTER TABLE public.album OWNER TO postgres;
+ALTER TABLE public.album OWNER TO action;
 
 --
 -- Name: album_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
@@ -53,7 +53,7 @@ CREATE SEQUENCE album_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.album_id_seq OWNER TO postgres;
+ALTER TABLE public.album_id_seq OWNER TO action;
 
 --
 -- Name: album_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
@@ -104,8 +104,8 @@ ALTER TABLE ONLY album
 --
 
 REVOKE ALL ON SCHEMA public FROM PUBLIC;
-REVOKE ALL ON SCHEMA public FROM postgres;
-GRANT ALL ON SCHEMA public TO postgres;
+REVOKE ALL ON SCHEMA public FROM action;
+GRANT ALL ON SCHEMA public TO action;
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
